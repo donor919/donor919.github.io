@@ -34,6 +34,7 @@ jobs:
         run: |
           npm run build
           cp dist/du-bro-app/index.html dist/du-bro-app/404.html
+          cp CNAME dist/du-bro-app/CNAME
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
