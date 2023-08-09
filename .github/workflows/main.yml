@@ -49,7 +49,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          cp dist/du-bro-app/index.html dist/website/404.html
+          cp dist/du-bro-app/index.html dist/du-bro-app/404.html
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
