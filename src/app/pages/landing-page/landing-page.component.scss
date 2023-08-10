@@ -1,3 +1,6 @@
 .lp-background {
-    background: url('/src/app/shared/images/wow-tree.jpg') center no-repeat fixed;
+    background: url('/src/app/shared/images/wow-tree.jpg');
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
 }
